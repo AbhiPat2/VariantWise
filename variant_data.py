@@ -61,8 +61,12 @@ def clean_data(specs_div):
         "Don't miss out on the best offers for this Month",
         "Check January Offers",
         "Check February Offers",
-        "View Complete Offers"
+        "View Complete Offers",
+        "View Holi Offers",
+        "View March Offers",
+        "View April Offers",
     }
+
 
     rows = text_content.split("\n")
     rows = [r.strip() for r in rows if r.strip()]
