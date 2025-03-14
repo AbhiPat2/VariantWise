@@ -2,8 +2,8 @@ import pandas as pd
 from variant_links import variant_links
 from variant_data import variant_data
 
-brand = 'maruti'
-model = 'baleno'
+brand = 'hyundai'
+model = 'i20'
 url = f"https://www.cardekho.com/{brand}/{model}/specs"
 
 headers = {
