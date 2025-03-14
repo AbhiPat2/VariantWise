@@ -29,5 +29,6 @@ for variant_name, details in variant_list.items():
 
 # Convert to DataFrame and save
 df = pd.DataFrame(all_variants_data)
+df = df.drop_duplicates()
 df.to_csv(f"{brand}-{model}.csv", index=False)
 print(f"{brand}-{model}.csv created successfully.")
